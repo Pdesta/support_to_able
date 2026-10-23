@@ -29,7 +29,7 @@ const values = [
 function AboutPage() {
   return (
     <SiteLayout>
-      <PageHero eyebrow="About Us" title="People-first NDIS support, made in Queensland" subtitle="We exist to empower people living with disability to achieve their goals, build independence and live life on their own terms." />
+      <PageHero eyebrow="About Us" title="Get to know Support To Able" subtitle="We exist to empower people living with disability to achieve their goals, build independence and live life on their own terms." />
 
       <section className="mx-auto grid max-w-7xl gap-12 px-4 py-20 sm:px-6 lg:grid-cols-2 lg:px-8">
         <div>
@@ -39,7 +39,7 @@ function AboutPage() {
           <div>
             <h2 className="font-display text-3xl font-bold tracking-tight">Our Story</h2>
             <p className="mt-4 text-muted-foreground">
-              Support To Able was founded by Queensland locals who saw a gap between what the NDIS promised and what participants were actually receiving. We set out to build a provider that puts participants first — flexible, reliable, and grounded in genuine care. From a small team in Brisbane, we now support hundreds of Queenslanders across the South East to live the lives they choose.
+              Support To Able is a Queensland-based disability support provider. We believe good support begins with listening, understanding each person's routine and respecting their choices. Our focus is on practical, reliable assistance that helps people take part in everyday life at home and in their community.
             </p>
           </div>
           <div>
