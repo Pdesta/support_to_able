@@ -7,7 +7,7 @@ export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
       { title: "Contact Support To Able | NDIS Provider Brisbane & QLD" },
-      { name: "description", content: "Get in touch with Support To Able. Email Supporttoable@gmail.com or send an enquiry. Servicing Brisbane, Ipswich, Logan and Gold Coast." },
+      { name: "description", content: "Get in touch with Support To Able. Email Supporttoable@gmail.com or send an enquiry. Servicing Brisbane, Ipswich, Logan, Redland, Moreton Bay and the Gold Coast." },
       { property: "og:title", content: "Contact Support To Able" },
       { property: "og:description", content: "We're here to help — call, email or send us a message." },
       { property: "og:url", content: "/contact" },
@@ -33,7 +33,7 @@ function ContactPage() {
       <section className="mx-auto grid max-w-7xl gap-12 px-4 py-20 sm:px-6 lg:grid-cols-[1fr_1.2fr] lg:px-8">
         <div className="space-y-4">
           <ContactCard icon={Mail} title="Email" lines={[<a key="e" href="mailto:Supporttoable@gmail.com" className="text-primary hover:underline">Supporttoable@gmail.com</a>, "We respond within 1 business day"]} />
-          <ContactCard icon={MapPin} title="Service Areas" lines={["Brisbane · Ipswich · Logan · Gold Coast", "& greater South East Queensland"]} />
+          <ContactCard icon={MapPin} title="Service Areas" lines={["Brisbane · Ipswich · Logan", "Redland · Moreton Bay · Gold Coast"]} />
           <ContactCard icon={Clock} title="Office Hours" lines={["Mon–Fri: 8:30am – 5:30pm", "24/7 on-call for active participants"]} />
           <div className="overflow-hidden rounded-3xl border border-border">
             <iframe
