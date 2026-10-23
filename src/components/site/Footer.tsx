@@ -50,7 +50,7 @@ export function Footer() {
             <h3 className="text-sm font-semibold text-foreground">Get In Touch</h3>
             <ul className="mt-4 space-y-3 text-sm text-muted-foreground">
               <li className="flex gap-3"><Mail className="mt-0.5 h-4 w-4 shrink-0 text-primary" /><a href="mailto:Supporttoable@gmail.com" className="hover:text-primary">Supporttoable@gmail.com</a></li>
-              <li className="flex gap-3"><MapPin className="mt-0.5 h-4 w-4 shrink-0 text-primary" /><span>Brisbane • Ipswich • Logan • Gold Coast</span></li>
+              <li className="flex gap-3"><MapPin className="mt-0.5 h-4 w-4 shrink-0 text-primary" /><span>Brisbane • Ipswich • Logan • Redland • Moreton Bay • Gold Coast</span></li>
             </ul>
           </div>
         </div>

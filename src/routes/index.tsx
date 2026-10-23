@@ -13,7 +13,7 @@ import {
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Support To Able | NDIS Provider Brisbane, Ipswich, Logan & Gold Coast" },
+      { title: "Support To Able | NDIS Support Across South East Queensland" },
       { name: "description", content: "Personalised NDIS supports across South East Queensland. Personal care, community access, support coordination and more. Get started today." },
       { property: "og:title", content: "Support To Able | NDIS Provider South East QLD" },
       { property: "og:description", content: "Personalised NDIS supports that help you achieve your goals, build independence and stay connected." },
@@ -36,13 +36,13 @@ const services = [
 ];
 
 const reasons = [
-  { icon: HeartHandshake, title: "Person-Centred Support", desc: "Your goals, your choices, your plan — always at the centre." },
+  { icon: HeartHandshake, title: "Person-Centred Support", desc: "We take time to understand what matters to you and how you want to be supported." },
   { icon: Users, title: "Culturally Inclusive Care", desc: "We celebrate every culture, language and background — including First Nations, CALD and LGBTQIA+ communities." },
   { icon: BadgeCheck, title: "Qualified Support Workers", desc: "Trained, screened and matched to suit your needs and personality." },
   { icon: Zap, title: "Flexible Services", desc: "Support that fits your lifestyle and adapts as your needs change." },
-  { icon: MapPin, title: "Local Queensland Team", desc: "Proudly serving Brisbane, Ipswich, Logan and the Gold Coast." },
+  { icon: MapPin, title: "Local Queensland Team", desc: "Supporting communities across Brisbane, Ipswich, Logan, Redland, Moreton Bay and the Gold Coast." },
   { icon: ShieldCheck, title: "NDIS Focused", desc: "We know the scheme inside out and help you make the most of it." },
-  { icon: MessageSquare, title: "Reliable & Responsive", desc: "Real people, real fast — answers when you need them most." },
+  { icon: MessageSquare, title: "Reliable & Responsive", desc: "Speak with our team about your support needs and the next steps." },
 ];
 
 const steps = [
@@ -58,7 +58,7 @@ const faqs = [
   { q: "Am I eligible for NDIS funding?", a: "Generally you must be under 65, an Australian citizen or permanent resident, and have a permanent disability that significantly affects daily life." },
   { q: "How do I access supports through Support To Able?", a: "Simply contact our friendly intake team. We'll meet with you, discuss your goals and start matching you with the right supports." },
   { q: "Are you a registered NDIS provider?", a: "Support To Able is a new NDIS provider operating across South East Queensland. We currently support Self-Managed and Plan-Managed participants while we progress through the NDIS Commission registration process." },
-  { q: "What areas do you service?", a: "We deliver supports throughout Brisbane, Ipswich, Logan, the Gold Coast and surrounding South East Queensland communities." },
+  { q: "What areas do you service?", a: "We deliver supports across Brisbane, Ipswich, Logan, Redland, Moreton Bay and the Gold Coast." },
   { q: "Can I choose my own support worker?", a: "Absolutely. We match based on personality, interests and needs — and you're always welcome to request a change." },
   { q: "How are services funded?", a: "Services are funded through your NDIS plan. We work with Self-Managed, Plan-Managed and NDIA-Managed participants." },
   { q: "Do you offer short-term or emergency support?", a: "Yes, we provide respite, short-term accommodation and rapid-response supports when needed." },
@@ -91,7 +91,7 @@ function HomePage() {
               {[
                 { k: "Person-Centred", v: "Care Built Around You" },
                 { k: "Local", v: "South East QLD Team" },
-                { k: "4 Regions", v: "Brisbane · Ipswich · Logan · Gold Coast" },
+                { k: "6 Regions", v: "Across South East Queensland" },
               ].map((s) => (
                 <div key={s.v} className="rounded-2xl bg-background/70 p-4 backdrop-blur">
                   <dt className="font-display text-2xl font-bold text-primary">{s.k}</dt>
